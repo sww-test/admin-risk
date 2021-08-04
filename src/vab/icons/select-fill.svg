@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-288.000000, -207.000000)" stroke="#03238C" stroke-width="1.5">
+            <g id="编组" transform="translate(81.000000, 108.000000)">
+                <g transform="translate(207.000000, 99.000000)" id="Group-6">
+                    <rect id="Rectangle-Copy-2" x="0.75" y="0.75" width="14.5" height="14.5" rx="4"></rect>
+                    <polyline id="Path-10" stroke-linecap="round" stroke-linejoin="round" points="4 8 7.42857143 11 12 5"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="icon/选中/画板备份-27">
+        <rect id="矩形" x="4" y="3" width="16" height="18" rx="1"></rect>
+        <rect id="矩形" fill="#FFFFFF" x="7" y="15" width="2" height="4"></rect>
+        <rect id="矩形备份" fill="#FFFFFF" x="11" y="13" width="2" height="6"></rect>
+        <rect id="矩形备份-2" fill="#FFFFFF" x="15" y="11" width="2" height="8"></rect>
+        <line x1="7" y1="12.5" x2="16" y2="7" id="路径-2" stroke="#FFFFFF"></line>
+        <polygon id="三角形" fill="#FFFFFF" transform="translate(16.500000, 6.500000) rotate(60.000000) translate(-16.500000, -6.500000) " points="16.5 5 18 8 15 8"></polygon>
+    </g>
+</svg>

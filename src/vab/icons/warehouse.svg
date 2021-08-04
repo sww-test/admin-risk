@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="icon/选中/画板备份-25">
+        <path d="M4.47000106,7.70624934 L12,3 L12,3 L19.5299989,7.70624934 C19.8223803,7.88898769 20,8.20945761 20,8.55424764 L20,20.5 C20,21.0522847 19.5522847,21.5 19,21.5 L5,21.5 C4.44771525,21.5 4,21.0522847 4,20.5 L4,8.55424764 C4,8.20945761 4.1776197,7.88898769 4.47000106,7.70624934 Z" id="矩形"></path>
+        <rect id="矩形" fill="#FFFFFF" x="7" y="10" width="4" height="4" rx="1"></rect>
+        <rect id="矩形备份" fill="#FFFFFF" x="7" y="16" width="4" height="4" rx="1"></rect>
+        <rect id="矩形备份-3" fill="#FFFFFF" x="13" y="16" width="4" height="4" rx="1"></rect>
+    </g>
+</svg>

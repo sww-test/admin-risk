@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/选中/画板备份 22</title>
+    <g id="icon/选中/画板备份-22" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#2C6BBA" x="3.69230769" y="3.69230769" width="5.53846154" height="8.30769231" rx="0.923076923"></rect>
+        <rect id="Rectangle" fill="#2C6BBA" x="12" y="3.69230769" width="8.30769231" height="8.30769231" rx="0.923076923"></rect>
+        <rect id="Rectangle" fill="#2C6BBA" transform="translate(17.538462, 17.538462) scale(-1, 1) translate(-17.538462, -17.538462) " x="14.7692308" y="14.7692308" width="5.53846154" height="5.53846154" rx="0.923076923"></rect>
+        <rect id="Rectangle" fill="#2C6BBA" transform="translate(7.846154, 17.538462) scale(-1, 1) translate(-7.846154, -17.538462) " x="3.69230769" y="14.7692308" width="8.30769231" height="5.53846154" rx="0.923076923"></rect>
+    </g>
+</svg>

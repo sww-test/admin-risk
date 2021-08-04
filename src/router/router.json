@@ -1,0 +1,724 @@
+{
+  "administrators": {
+    "path": "/administrators",
+    "name": "Administrators",
+    "redirect": "/administrators/account",
+    "component": "Layout",
+    "children": [
+      {
+        "path": "account",
+        "name": "AAccount",
+        "component": "@/views/administrators/account",
+        "redirect": "/administrators/account/list",
+        "meta": {
+          "title": "超管",
+          "icon": "",
+          "noKeepAlive": false,
+          "fullPath": ""
+        },
+        "children": [
+          {
+            "path": "list",
+            "name": "AAccountList",
+            "component": "@/views/administrators/account/list",
+            "meta": {
+              "title": "账号管理",
+              "icon": "license"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "headquarters": {
+    "path": "/headquarters",
+    "name": "Headquarters",
+    "redirect": "/headquarters/base",
+    "component": "Layout",
+    "children": [
+      {
+        "path": "base",
+        "name": "HBase",
+        "redirect": "/headquarters/base/business",
+        "component": "@/views/headquarters/base",
+        "meta": {
+          "title": "基本信息管理",
+          "icon": ""
+        },
+        "children": [
+          {
+            "path": "business",
+            "name": "HBaseBusiness",
+            "redirect": "/headquarters/base/business/list",
+            "component": "@/views/headquarters/base/business",
+            "meta": {
+              "title": "企业基本信息",
+              "icon": "business"
+            },
+            "children": [
+              {
+                "path": "list",
+                "name": "HBaseBusinessList",
+                "component": "@/views/headquarters/base/business/list",
+                "meta": {
+                  "hidden": true,
+                  "noKeepAlive": false
+                }
+              },
+              {
+                "path": "detail",
+                "name": "HBaseBusinessDetail",
+                "component": "@/views/headquarters/base/business/detail",
+                "meta": {
+                  "title": "详情",
+                  "noKeepAlive": true,
+                  "hidden": true
+                }
+              }
+            ]
+          },
+          {
+            "path": "license",
+            "name": "HBaseLicense",
+            "redirect": "/headquarters/base/license/list",
+            "component": "@/views/headquarters/base/license",
+            "meta": {
+              "title": "营业执照",
+              "icon": "license"
+            },
+            "children": [
+              {
+                "path": "list",
+                "name": "HBaseLicenseList",
+                "component": "@/views/headquarters/base/license/list",
+                "meta": {
+                  "hidden": true
+                }
+              },
+              {
+                "path": "detail",
+                "name": "HBaseLicenseDetail",
+                "component": "@/views/headquarters/base/license/detail",
+                "meta": {
+                  "title": "详情",
+                  "noKeepAlive": true,
+                  "hidden": true
+                }
+              }
+            ]
+          },
+          {
+            "path": "drugs",
+            "name": "HBaseDrugs",
+            "redirect": "/headquarters/base/drugs/list",
+            "component": "@/views/headquarters/base/drugs",
+            "meta": {
+              "title": "药品经营许可证",
+              "icon": "drugs"
+            },
+            "children": [
+              {
+                "path": "list",
+                "name": "HBaseDrugsList",
+                "component": "@/views/headquarters/base/drugs/list",
+                "meta": {
+                  "hidden": true
+                }
+              },
+              {
+                "path": "detail",
+                "name": "HBaseDrugsDetail",
+                "component": "@/views/headquarters/base/drugs/detail",
+                "meta": {
+                  "title": "详情",
+                  "noKeepAlive": true,
+                  "hidden": true
+                }
+              }
+            ]
+          },
+          {
+            "path": "appliance",
+            "name": "HBaseAppliance",
+            "redirect": "/headquarters/base/appliance/list",
+            "component": "@/views/headquarters/base/appliance",
+            "meta": {
+              "title": "医疗器械经营许可证",
+              "icon": "license"
+            },
+            "children": [
+              {
+                "path": "list",
+                "name": "HBaseApplianceList",
+                "component": "@/views/headquarters/base/appliance/list",
+                "meta": {
+                  "hidden": true
+                }
+              },
+              {
+                "path": "detail",
+                "name": "HBaseApplianceDetail",
+                "component": "@/views/headquarters/base/appliance/detail",
+                "meta": {
+                  "title": "详情",
+                  "noKeepAlive": true,
+                  "hidden": true
+                }
+              }
+            ]
+          },
+          {
+            "path": "second",
+            "name": "HBaseSecond",
+            "redirect": "/headquarters/base/second/list",
+            "component": "@/views/headquarters/base/second",
+            "meta": {
+              "title": "第二类医疗器械备案凭证",
+              "icon": "license"
+            },
+            "children": [
+              {
+                "path": "list",
+                "name": "HBaseSecondList",
+                "component": "@/views/headquarters/base/second/list",
+                "meta": {
+                  "hidden": true
+                }
+              },
+              {
+                "path": "detail",
+                "name": "HBaseSecondDetail",
+                "component": "@/views/headquarters/base/second/detail",
+                "meta": {
+                  "title": "详情",
+                  "noKeepAlive": true,
+                  "hidden": true
+                }
+              }
+            ]
+          },
+          {
+            "path": "internet",
+            "name": "HBaseInternet",
+            "redirect": "/headquarters/base/internet/list",
+            "component": "@/views/headquarters/base/internet",
+            "meta": {
+              "title": "互联网药品信息服务资格证书",
+              "icon": "license"
+            },
+            "children": [
+              {
+                "path": "list",
+                "name": "HBaseInternetList",
+                "component": "@/views/headquarters/base/internet/list",
+                "meta": {
+                  "hidden": true
+                }
+              },
+              {
+                "path": "detail",
+                "name": "HBaseInternetDetail",
+                "component": "@/views/headquarters/base/internet/detail",
+                "meta": {
+                  "title": "详情",
+                  "noKeepAlive": true,
+                  "hidden": true
+                }
+              }
+            ]
+          },
+          {
+            "path": "quality",
+            "name": "HBaseQuality",
+            "redirect": "/headquarters/base/quality/list",
+            "component": "@/views/headquarters/base/quality",
+            "meta": {
+              "title": "药品质量负责人",
+              "icon": "quality"
+            },
+            "children": [
+              {
+                "path": "list",
+                "name": "HBaseQualityList",
+                "component": "@/views/headquarters/base/quality/list",
+                "meta": {
+                  "hidden": true
+                }
+              },
+              {
+                "path": "detail",
+                "name": "HBaseQualityDetail",
+                "component": "@/views/headquarters/base/quality/detail",
+                "meta": {
+                  "title": "详情",
+                  "noKeepAlive": true,
+                  "hidden": true
+                }
+              }
+            ]
+          },
+          {
+            "path": "control",
+            "name": "HBaseControl",
+            "redirect": "/headquarters/base/control/list",
+            "component": "@/views/headquarters/base/control",
+            "meta": {
+              "title": "质管人员",
+              "icon": "quality"
+            },
+            "children": [
+              {
+                "path": "list",
+                "name": "HBaseControlList",
+                "component": "@/views/headquarters/base/control/list",
+                "meta": {
+                  "hidden": true
+                }
+              },
+              {
+                "path": "detail",
+                "name": "HBaseControlDetail",
+                "component": "@/views/headquarters/base/control/detail",
+                "meta": {
+                  "title": "详情",
+                  "noKeepAlive": true,
+                  "hidden": true
+                }
+              }
+            ]
+          },
+          {
+            "path": "certificate",
+            "name": "HBaseCertificate",
+            "redirect": "/headquarters/base/certificate/list",
+            "component": "@/views/headquarters/base/certificate",
+            "meta": {
+              "title": "办证人员",
+              "icon": "quality"
+            },
+            "children": [
+              {
+                "path": "list",
+                "name": "HBaseCertificateList",
+                "component": "@/views/headquarters/base/certificate/list",
+                "meta": {
+                  "hidden": true
+                }
+              },
+              {
+                "path": "detail",
+                "name": "HBaseCertificateDetail",
+                "component": "@/views/headquarters/base/certificate/detail",
+                "meta": {
+                  "title": "详情",
+                  "noKeepAlive": true,
+                  "hidden": true
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "gsp",
+        "name": "HGsp",
+        "redirect": "/headquarters/gsp/subsidiary",
+        "component": "@/views/headquarters/gsp",
+        "meta": {
+          "title": "GSP审计",
+          "icon": ""
+        },
+        "children": [
+          {
+            "path": "subsidiary",
+            "name": "HGspSubsidiary",
+            "redirect": "/headquarters/gsp/subsidiary/list",
+            "component": "@/views/headquarters/gsp/subsidiary",
+            "meta": {
+              "title": "子公司审计",
+              "icon": "business"
+            },
+            "children": [
+              {
+                "path": "list",
+                "name": "HGspSubsidiaryList",
+                "component": "@/views/headquarters/gsp/subsidiary/list",
+                "meta": {
+                  "hidden": true
+                }
+              },
+              {
+                "path": "detail",
+                "name": "HGspSubsidiaryDetail",
+                "component": "@/views/headquarters/gsp/subsidiary/detail",
+                "meta": {
+                  "title": "详情",
+                  "noKeepAlive": true,
+                  "hidden": true
+                }
+              }
+            ]
+          },
+          {
+            "path": "franchiser",
+            "name": "HGspFranchiser",
+            "redirect": "/headquarters/gsp/franchiser/list",
+            "component": "@/views/headquarters/gsp/franchiser",
+            "meta": {
+              "title": "加盟店审计",
+              "icon": "franchiser"
+            },
+            "children": [
+              {
+                "path": "list",
+                "name": "HGspFranchiserList",
+                "component": "@/views/headquarters/gsp/franchiser/list",
+                "meta": {
+                  "hidden": true
+                }
+              },
+              {
+                "path": "detail",
+                "name": "HGspFranchiserDetail",
+                "component": "@/views/headquarters/gsp/franchiser/detail",
+                "meta": {
+                  "title": "详情",
+                  "noKeepAlive": true,
+                  "hidden": true
+                }
+              }
+            ]
+          },
+          {
+            "path": "warehouse",
+            "name": "HGspWarehouse",
+            "redirect": "/headquarters/gsp/warehouse/list",
+            "component": "@/views/headquarters/gsp/warehouse",
+            "meta": {
+              "title": "仓库GSP审计",
+              "icon": "warehouse"
+            },
+            "children": [
+              {
+                "path": "list",
+                "name": "HGspWarehouseList",
+                "component": "@/views/headquarters/gsp/warehouse/list",
+                "meta": {
+                  "hidden": true
+                }
+              },
+              {
+                "path": "detail",
+                "name": "HGspWarehouseDetail",
+                "component": "@/views/headquarters/gsp/warehouse/detail",
+                "meta": {
+                  "title": "详情",
+                  "noKeepAlive": true,
+                  "hidden": true
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "drug",
+        "name": "HDrug",
+        "redirect": "/headquarters/drug/list",
+        "component": "@/views/headquarters/drug",
+        "meta": {
+          "title": "药监检查",
+          "icon": ""
+        },
+        "children": [
+          {
+            "path": "list",
+            "name": "HDrugList",
+            "component": "@/views/headquarters/drug/list",
+            "meta": {
+              "title": "药监检查",
+              "noKeepAlive": false,
+              "hidden": false,
+              "icon": "license"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "subsidiary": {
+    "path": "/subsidiary",
+    "name": "Subsidiary",
+    "redirect": "/subsidiary/base",
+    "component": "Layout",
+    "children": [
+      {
+        "path": "base",
+        "name": "SBase",
+        "redirect": "/subsidiary/base/business",
+        "component": "@/views/subsidiary/base",
+        "meta": {
+          "title": "基本信息管理",
+          "icon": ""
+        },
+        "children": [
+          {
+            "path": "business",
+            "name": "SBaseBusiness",
+            "redirect": "/subsidiary/base/business/list",
+            "component": "@/views/subsidiary/base/business",
+            "meta": {
+              "title": "企业基本信息",
+              "icon": "business"
+            },
+            "children": [
+              {
+                "path": "list",
+                "name": "SBaseBusinessList",
+                "component": "@/views/subsidiary/base/business/list",
+                "meta": {
+                  "hidden": true
+                }
+              },
+              {
+                "path": "detail",
+                "name": "SBaseBusinessDetail",
+                "component": "@/views/subsidiary/base/business/detail",
+                "meta": {
+                  "title": "详情",
+                  "hidden": true
+                }
+              }
+            ]
+          },
+          {
+            "path": "license",
+            "name": "SBaseLicense",
+            "redirect": "/subsidiary/base/license/list",
+            "component": "@/views/subsidiary/base/license",
+            "meta": {
+              "title": "营业执照",
+              "icon": "license"
+            },
+            "children": [
+              {
+                "path": "list",
+                "name": "SBaseLicenseList",
+                "component": "@/views/subsidiary/base/license/list",
+                "meta": {
+                  "hidden": true
+                }
+              },
+              {
+                "path": "detail",
+                "name": "SBaseLicenseDetail",
+                "component": "@/views/subsidiary/base/license/detail",
+                "meta": {
+                  "title": "详情",
+                  "hidden": true
+                }
+              }
+            ]
+          },
+          {
+            "path": "drugs",
+            "name": "SBaseDrugs",
+            "redirect": "/subsidiary/base/drugs/list",
+            "component": "@/views/subsidiary/base/drugs",
+            "meta": {
+              "title": "药品经营许可证",
+              "icon": "drugs"
+            },
+            "children": [
+              {
+                "path": "list",
+                "name": "SBaseDrugsList",
+                "component": "@/views/subsidiary/base/drugs/list",
+                "meta": {
+                  "hidden": true
+                }
+              },
+              {
+                "path": "detail",
+                "name": "SBaseDrugsDetail",
+                "component": "@/views/subsidiary/base/drugs/detail",
+                "meta": {
+                  "title": "详情",
+                  "hidden": true
+                }
+              }
+            ]
+          },
+          {
+            "path": "appliance",
+            "name": "SBaseAppliance",
+            "redirect": "/subsidiary/base/appliance/list",
+            "component": "@/views/subsidiary/base/appliance",
+            "meta": {
+              "title": "医疗器械经营许可证",
+              "icon": "license"
+            },
+            "children": [
+              {
+                "path": "list",
+                "name": "SBaseApplianceList",
+                "component": "@/views/subsidiary/base/appliance/list",
+                "meta": {
+                  "hidden": true
+                }
+              },
+              {
+                "path": "detail",
+                "name": "SBaseApplianceDetail",
+                "component": "@/views/subsidiary/base/appliance/detail",
+                "meta": {
+                  "title": "详情",
+                  "hidden": true
+                }
+              }
+            ]
+          },
+          {
+            "path": "second",
+            "name": "SBaseSecond",
+            "redirect": "/subsidiary/base/second/list",
+            "component": "@/views/subsidiary/base/second",
+            "meta": {
+              "title": "第二类医疗器械备案凭证",
+              "icon": "license"
+            },
+            "children": [
+              {
+                "path": "list",
+                "name": "SBaseSecondList",
+                "component": "@/views/subsidiary/base/second/list",
+                "meta": {
+                  "hidden": true
+                }
+              },
+              {
+                "path": "detail",
+                "name": "SBaseSecondDetail",
+                "component": "@/views/subsidiary/base/second/detail",
+                "meta": {
+                  "title": "详情",
+                  "hidden": true
+                }
+              }
+            ]
+          },
+          {
+            "path": "internet",
+            "name": "SBaseInternet",
+            "redirect": "/subsidiary/base/internet/list",
+            "component": "@/views/subsidiary/base/internet",
+            "meta": {
+              "title": "互联网药品信息服务资格证书",
+              "icon": "license"
+            },
+            "children": [
+              {
+                "path": "list",
+                "name": "SBaseInternetList",
+                "component": "@/views/subsidiary/base/internet/list",
+                "meta": {
+                  "hidden": true
+                }
+              },
+              {
+                "path": "detail",
+                "name": "SBaseInternetDetail",
+                "component": "@/views/subsidiary/base/internet/detail",
+                "meta": {
+                  "title": "详情",
+                  "hidden": true
+                }
+              }
+            ]
+          },
+          {
+            "path": "quality",
+            "name": "SBaseQuality",
+            "redirect": "/subsidiary/base/quality/list",
+            "component": "@/views/subsidiary/base/quality",
+            "meta": {
+              "title": "药品质量负责人",
+              "icon": "quality"
+            },
+            "children": [
+              {
+                "path": "list",
+                "name": "SBaseQualityList",
+                "component": "@/views/subsidiary/base/quality/list",
+                "meta": {
+                  "hidden": true
+                }
+              },
+              {
+                "path": "detail",
+                "name": "SBaseQualityDetail",
+                "component": "@/views/subsidiary/base/quality/detail",
+                "meta": {
+                  "title": "详情",
+                  "hidden": true
+                }
+              }
+            ]
+          },
+          {
+            "path": "control",
+            "name": "SBaseControl",
+            "redirect": "/subsidiary/base/control/list",
+            "component": "@/views/subsidiary/base/control",
+            "meta": {
+              "title": "药品质量负责人",
+              "icon": "quality"
+            },
+            "children": [
+              {
+                "path": "list",
+                "name": "SBaseControlList",
+                "component": "@/views/subsidiary/base/control/list",
+                "meta": {
+                  "hidden": true
+                }
+              },
+              {
+                "path": "detail",
+                "name": "SBaseControlDetail",
+                "component": "@/views/subsidiary/base/control/detail",
+                "meta": {
+                  "title": "详情",
+                  "hidden": true
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "drug",
+        "name": "SDrug",
+        "redirect": "/subsidiary/drug/list",
+        "component": "@/views/subsidiary/drug",
+        "meta": {
+          "title": "药监检查",
+          "icon": ""
+        },
+        "children": [
+          {
+            "path": "list",
+            "name": "SDrugList",
+            "component": "@/views/subsidiary/drug/list",
+            "meta": {
+              "title": "药监检查",
+              "noKeepAlive": false,
+              "hidden": false,
+              "icon": "license"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+//https://docs.tailwindchina.com/docs/using-with-preprocessors
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+  body {
+    font-family: "PingFangSC-Semibold", "PingFang SC", "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    box-sizing: border-box;
+  }
+  button:focus {
+    outline: none;
+  }
+}
